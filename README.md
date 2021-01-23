@@ -1,6 +1,7 @@
-## K8s Hello Mutating Webhook
-A Kubernetes Mutating Admission Webhook example, using Go.
-This is a solution to the lack of `SCRAM-SHA-1` support in MongoDB's community operator.
+## MongoDB Operator SCRAM-SHA-1 MutatingAdmissionWebhook
+A Kubernetes Mutating Admission Webhook, using Go.
+This is a solution to the lack of `SCRAM-SHA-1` support in MongoDB's Community Operator.
+The operator writes the authentication method options to the `mongodb-config` Secret, which this webhook changes.
 
 This is proof of concept code, make sure to review carefully before using in a production system.
 
