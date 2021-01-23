@@ -4,6 +4,7 @@ This is a solution to the lack of `SCRAM-SHA-1` support in MongoDB's Community O
 The operator writes the authentication method options to the `mongodb-config` Secret, which this webhook changes.
 
 This is proof of concept code, make sure to review carefully before using in a production system.
+Reused some code from https://github.com/orangeglasses/k8s-mutate-registry
 
 #### Run tests
 Sadly we don't have tests for now :(
