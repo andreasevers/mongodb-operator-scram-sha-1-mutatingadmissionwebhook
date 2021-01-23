@@ -1,7 +1,8 @@
 ## MongoDB Operator SCRAM-SHA-1 MutatingAdmissionWebhook
-A Kubernetes Mutating Admission Webhook, using Go.
-This is a solution to the lack of `SCRAM-SHA-1` support in MongoDB's Community Operator.
-The operator writes the authentication method options to the `mongodb-config` Secret, which this webhook changes.
+A Kubernetes Mutating Admission Webhook, using Go.  
+This is a solution to the lack of `SCRAM-SHA-1` support in [MongoDB's Community Operator](https://github.com/mongodb/mongodb-kubernetes-operator).  
+The operator writes the authentication method options to the `mongodb-config` Secret, which this webhook changes.  
+Related issue on the Operator GitHub: https://github.com/mongodb/mongodb-kubernetes-operator/issues/217
 
 This is proof of concept code, make sure to review carefully before using in a production system.  
 Reused some code from https://github.com/orangeglasses/k8s-mutate-registry
