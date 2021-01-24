@@ -1,4 +1,4 @@
-module cihaas.politie.local/weqan/mutating-webhook
+module github.com/andreasevers/mongodb-operator-scram-sha-1-mutatingadmissionwebhook
 
 go 1.14
 
